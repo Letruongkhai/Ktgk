@@ -26,6 +26,10 @@
 .hero a{
     background-color: #eda405db ;
     color:white;
+    border-radius: 25px;
+    padding: 10px; 
+    width: 15px;
+    height: 10px;  
 }
 .hero a:hover{
     background-color:white ;
@@ -38,6 +42,7 @@
   display: grid;
   grid-template-columns: repeat;
   grid-gap: 20px;
+  position: absolute;
 }
 .gia{
     color:#eda405db
